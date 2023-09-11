@@ -23,7 +23,6 @@ def _convert_str_col_to_float(data_address):
     data.to_csv(data_address, index=False)
     print('finished ...')
 
-
 _convert_str_col_to_float(data_address)
 
 # daily_data = bt.feeds.GenericCSVData(
